@@ -1,0 +1,542 @@
+[
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 1,
+    "fields": {
+      "month": 1,
+      "year": 2015,
+      "cteuro_per_kwh": 15.994703831177258
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 2,
+    "fields": {
+      "month": 2,
+      "year": 2015,
+      "cteuro_per_kwh": 15.919386846565034
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 3,
+    "fields": {
+      "month": 3,
+      "year": 2015,
+      "cteuro_per_kwh": 15.328122893950844
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 4,
+    "fields": {
+      "month": 4,
+      "year": 2015,
+      "cteuro_per_kwh": 14.742927719551258
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 5,
+    "fields": {
+      "month": 5,
+      "year": 2015,
+      "cteuro_per_kwh": 14.571605104249961
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 6,
+    "fields": {
+      "month": 6,
+      "year": 2015,
+      "cteuro_per_kwh": 14.16726970638639
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 7,
+    "fields": {
+      "month": 7,
+      "year": 2015,
+      "cteuro_per_kwh": 13.255349072649041
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 8,
+    "fields": {
+      "month": 8,
+      "year": 2015,
+      "cteuro_per_kwh": 13.780344559831605
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 9,
+    "fields": {
+      "month": 9,
+      "year": 2015,
+      "cteuro_per_kwh": 14.355641210728379
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 10,
+    "fields": {
+      "month": 10,
+      "year": 2015,
+      "cteuro_per_kwh": 15.081898109505593
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 11,
+    "fields": {
+      "month": 11,
+      "year": 2015,
+      "cteuro_per_kwh": 15.534127660139305
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 12,
+    "fields": {
+      "month": 12,
+      "year": 2015,
+      "cteuro_per_kwh": 15.970525065819114
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 13,
+    "fields": {
+      "month": 1,
+      "year": 2016,
+      "cteuro_per_kwh": 16.711393975933326
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 14,
+    "fields": {
+      "month": 2,
+      "year": 2016,
+      "cteuro_per_kwh": 16.11323301404208
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 15,
+    "fields": {
+      "month": 3,
+      "year": 2016,
+      "cteuro_per_kwh": 15.786647633679628
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 16,
+    "fields": {
+      "month": 4,
+      "year": 2016,
+      "cteuro_per_kwh": 15.577348583109089
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 17,
+    "fields": {
+      "month": 5,
+      "year": 2016,
+      "cteuro_per_kwh": 15.272776468978698
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 18,
+    "fields": {
+      "month": 6,
+      "year": 2016,
+      "cteuro_per_kwh": 14.518685022818747
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 19,
+    "fields": {
+      "month": 7,
+      "year": 2016,
+      "cteuro_per_kwh": 14.212621155120793
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 20,
+    "fields": {
+      "month": 8,
+      "year": 2016,
+      "cteuro_per_kwh": 14.39542090578399
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 21,
+    "fields": {
+      "month": 9,
+      "year": 2016,
+      "cteuro_per_kwh": 15.08126673948376
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 22,
+    "fields": {
+      "month": 10,
+      "year": 2016,
+      "cteuro_per_kwh": 15.541352447179522
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 23,
+    "fields": {
+      "month": 11,
+      "year": 2016,
+      "cteuro_per_kwh": 16.25293996376289
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 24,
+    "fields": {
+      "month": 12,
+      "year": 2016,
+      "cteuro_per_kwh": 16.55288450020138
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 25,
+    "fields": {
+      "month": 1,
+      "year": 2017,
+      "cteuro_per_kwh": 17.289270300333516
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 26,
+    "fields": {
+      "month": 2,
+      "year": 2017,
+      "cteuro_per_kwh": 17.036307080523613
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 27,
+    "fields": {
+      "month": 3,
+      "year": 2017,
+      "cteuro_per_kwh": 16.708658116034496
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 28,
+    "fields": {
+      "month": 4,
+      "year": 2017,
+      "cteuro_per_kwh": 16.008846458082072
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 29,
+    "fields": {
+      "month": 5,
+      "year": 2017,
+      "cteuro_per_kwh": 15.935289498481342
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 30,
+    "fields": {
+      "month": 6,
+      "year": 2017,
+      "cteuro_per_kwh": 15.210759321027691
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 31,
+    "fields": {
+      "month": 7,
+      "year": 2017,
+      "cteuro_per_kwh": 14.513110711408022
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 32,
+    "fields": {
+      "month": 8,
+      "year": 2017,
+      "cteuro_per_kwh": 15.062705749083355
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 33,
+    "fields": {
+      "month": 9,
+      "year": 2017,
+      "cteuro_per_kwh": 15.401455091850877
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 34,
+    "fields": {
+      "month": 10,
+      "year": 2017,
+      "cteuro_per_kwh": 15.793324743677651
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 35,
+    "fields": {
+      "month": 11,
+      "year": 2017,
+      "cteuro_per_kwh": 16.629021374307584
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 36,
+    "fields": {
+      "month": 12,
+      "year": 2017,
+      "cteuro_per_kwh": 17.65367720490108
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 37,
+    "fields": {
+      "month": 1,
+      "year": 2018,
+      "cteuro_per_kwh": 17.745181817702996
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 38,
+    "fields": {
+      "month": 2,
+      "year": 2018,
+      "cteuro_per_kwh": 17.43061421844899
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 39,
+    "fields": {
+      "month": 3,
+      "year": 2018,
+      "cteuro_per_kwh": 17.678291947826494
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 40,
+    "fields": {
+      "month": 4,
+      "year": 2018,
+      "cteuro_per_kwh": 16.877086714209415
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 41,
+    "fields": {
+      "month": 5,
+      "year": 2018,
+      "cteuro_per_kwh": 16.441648974275292
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 42,
+    "fields": {
+      "month": 6,
+      "year": 2018,
+      "cteuro_per_kwh": 16.08636079765602
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 43,
+    "fields": {
+      "month": 7,
+      "year": 2018,
+      "cteuro_per_kwh": 15.453764837519875
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 44,
+    "fields": {
+      "month": 8,
+      "year": 2018,
+      "cteuro_per_kwh": 15.400574645977013
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 45,
+    "fields": {
+      "month": 9,
+      "year": 2018,
+      "cteuro_per_kwh": 15.89470497436445
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 46,
+    "fields": {
+      "month": 10,
+      "year": 2018,
+      "cteuro_per_kwh": 16.56147749635641
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 47,
+    "fields": {
+      "month": 11,
+      "year": 2018,
+      "cteuro_per_kwh": 17.648073466642362
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 48,
+    "fields": {
+      "month": 12,
+      "year": 2018,
+      "cteuro_per_kwh": 18.248299830588063
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 49,
+    "fields": {
+      "month": 1,
+      "year": 2019,
+      "cteuro_per_kwh": 18.745933408155267
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 50,
+    "fields": {
+      "month": 2,
+      "year": 2019,
+      "cteuro_per_kwh": 18.55629995954511
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 51,
+    "fields": {
+      "month": 3,
+      "year": 2019,
+      "cteuro_per_kwh": 17.952583435761294
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 52,
+    "fields": {
+      "month": 4,
+      "year": 2019,
+      "cteuro_per_kwh": 17.653961650888977
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 53,
+    "fields": {
+      "month": 5,
+      "year": 2019,
+      "cteuro_per_kwh": 17.01654628936039
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 54,
+    "fields": {
+      "month": 6,
+      "year": 2019,
+      "cteuro_per_kwh": 16.77118774909645
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 55,
+    "fields": {
+      "month": 7,
+      "year": 2019,
+      "cteuro_per_kwh": 15.779159365326727
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 56,
+    "fields": {
+      "month": 8,
+      "year": 2019,
+      "cteuro_per_kwh": 16.235691162736785
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 57,
+    "fields": {
+      "month": 9,
+      "year": 2019,
+      "cteuro_per_kwh": 16.63577706774244
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 58,
+    "fields": {
+      "month": 10,
+      "year": 2019,
+      "cteuro_per_kwh": 17.248936697317998
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 59,
+    "fields": {
+      "month": 11,
+      "year": 2019,
+      "cteuro_per_kwh": 18.085904710493114
+    }
+  },
+  {
+    "model": "dashboard.electricityprice",
+    "pk": 60,
+    "fields": {
+      "month": 12,
+      "year": 2019,
+      "cteuro_per_kwh": 18.650211231742883
+    }
+  }
+]
