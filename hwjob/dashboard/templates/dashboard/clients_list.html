@@ -1,0 +1,55 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block css %}
+    {{ block.super }}
+    <link rel="stylesheet" href="{% static "dashboard/css/clients-list.css" %}">
+{% endblock %}
+
+{% block body %}
+    <main class="clients-list-container">
+        <section>
+            <h1 class="main-title">List of clients</h1>
+            <table class="clients-list">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th class="text-center">Heating</th>
+                        <th class="text-center">Health</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for client in clients_list %}
+                        <tr>
+                            <td>{{ client.pk }}</td>
+                            <td>{{ client.full_name }}</td>
+                            <td>
+                                {% if client.has_elec_heating %}
+                                    <i class="icon fill-yellow" data-eva="flash"></i>
+                                {% else %}
+                                    <i class="icon fill-gray" data-eva="flash-off"></i>
+                                {% endif %}
+                            </td>
+                            <td>
+                                {% if not client.has_anomaly %}
+                                    <i class="icon fill-green" data-eva="checkmark-circle-2-outline"></i>
+                                {% else %}
+                                    <i class="icon fill-red" data-eva="close-circle-outline"></i>
+                                {% endif %}
+                            </td>
+                            <td>
+                                <a class="vertical-middle" href="{% url "dashboard:consumption_details" client_id=client.pk %}">
+                                    <span class="hidden md-inline">See consumption</span><!--
+                                    --><i class="icon icon-link inline fill-gray" data-eva="external-link-outline"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+    </main>
+{% endblock body %}
