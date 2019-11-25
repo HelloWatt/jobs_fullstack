@@ -3,8 +3,10 @@ from django.urls import reverse
 
 from dashboard.models import Client
 
+
 class DashBoardTestCase(TestCase):
-    fixtures = ['prices', 'clients', 'consumptions']
+    fixtures = ["prices", "clients", "consumptions"]
+
 
 class HttpCodeTestCase(DashBoardTestCase):
     def setUp(self):
@@ -13,16 +15,15 @@ class HttpCodeTestCase(DashBoardTestCase):
     def assertSuccess(self, response, msg_prefix):
         status_code = response.status_code
         failure_msg = (
-            (msg_prefix and msg_prefix + ' ' or '') +
-            f"expected success status code (200-299)"
-        )
+            msg_prefix and msg_prefix + " " or ""
+        ) + f"expected success status code (200-299)"
         self.assertGreaterEqual(status_code, 200, failure_msg)
         self.assertLess(status_code, 300, failure_msg)
 
     def assertGet(self, path):
         response = self.djclient.get(path)
         self.assertSuccess(response, f"{path}")
-    
+
     def assert404(self, path):
         response = self.djclient.get(path)
         self.assertEqual(response.status_code, 404)
