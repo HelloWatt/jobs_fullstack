@@ -26,10 +26,6 @@
     padding: 0.5rem;
 }
 
-.clients-list th {
-    font-size: ;
-}
-
 .clients-list tbody tr {
     border-bottom: solid 1px var(--mediumgray);
 }

@@ -41,7 +41,7 @@ class Consumption(MonthMixin):
         )
 
     def get_absolute_url(self):
-        return reverse("Consumption_detail", kwargs={"pk": self.pk})
+        return reverse("dashboard:consumption_details", kwargs={"client_id": self.pk})
 
 
 class ElectricityPrice(MonthMixin):

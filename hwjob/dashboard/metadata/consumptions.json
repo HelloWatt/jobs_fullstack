@@ -1,13 +1,434 @@
 [
   {
+    "client_id": 1,
+    "has_elec_heating": true,
+    "anomaly_date": {
+      "month": 1,
+      "year": 2017
+    }
+  },
+  {
+    "client_id": 2,
     "has_elec_heating": true,
     "anomaly_date": null
   },
   {
+    "client_id": 3,
     "has_elec_heating": false,
     "anomaly_date": null
   },
   {
+    "client_id": 4,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 5,
+    "has_elec_heating": false,
+    "anomaly_date": {
+      "month": 8,
+      "year": 2017
+    }
+  },
+  {
+    "client_id": 6,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 7,
+    "has_elec_heating": true,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 8,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 9,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 10,
+    "has_elec_heating": true,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 11,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 12,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 13,
+    "has_elec_heating": true,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 14,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 15,
+    "has_elec_heating": true,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 16,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 17,
+    "has_elec_heating": true,
+    "anomaly_date": {
+      "month": 10,
+      "year": 2015
+    }
+  },
+  {
+    "client_id": 18,
+    "has_elec_heating": true,
+    "anomaly_date": {
+      "month": 8,
+      "year": 2018
+    }
+  },
+  {
+    "client_id": 19,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 20,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 21,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 22,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 23,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 24,
+    "has_elec_heating": true,
+    "anomaly_date": {
+      "month": 7,
+      "year": 2018
+    }
+  },
+  {
+    "client_id": 25,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 26,
+    "has_elec_heating": true,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 27,
+    "has_elec_heating": true,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 28,
+    "has_elec_heating": true,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 29,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 30,
+    "has_elec_heating": false,
+    "anomaly_date": {
+      "month": 3,
+      "year": 2018
+    }
+  },
+  {
+    "client_id": 31,
+    "has_elec_heating": true,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 32,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 33,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 34,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 35,
+    "has_elec_heating": true,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 36,
+    "has_elec_heating": true,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 37,
+    "has_elec_heating": true,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 38,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 39,
+    "has_elec_heating": false,
+    "anomaly_date": {
+      "month": 10,
+      "year": 2016
+    }
+  },
+  {
+    "client_id": 40,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 41,
+    "has_elec_heating": true,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 42,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 43,
+    "has_elec_heating": true,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 44,
+    "has_elec_heating": true,
+    "anomaly_date": {
+      "month": 5,
+      "year": 2019
+    }
+  },
+  {
+    "client_id": 45,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 46,
+    "has_elec_heating": true,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 47,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 48,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 49,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 50,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 51,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 52,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 53,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 54,
+    "has_elec_heating": true,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 55,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 56,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 57,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 58,
+    "has_elec_heating": true,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 59,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 60,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 61,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 62,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 63,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 64,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 65,
+    "has_elec_heating": true,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 66,
+    "has_elec_heating": true,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 67,
+    "has_elec_heating": false,
+    "anomaly_date": {
+      "month": 9,
+      "year": 2015
+    }
+  },
+  {
+    "client_id": 68,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 69,
+    "has_elec_heating": true,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 70,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 71,
+    "has_elec_heating": false,
+    "anomaly_date": {
+      "month": 3,
+      "year": 2016
+    }
+  },
+  {
+    "client_id": 72,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 73,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 74,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 75,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 76,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 77,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 78,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 79,
+    "has_elec_heating": false,
+    "anomaly_date": {
+      "month": 10,
+      "year": 2015
+    }
+  },
+  {
+    "client_id": 80,
     "has_elec_heating": false,
     "anomaly_date": {
       "month": 5,
@@ -15,97 +436,17 @@
     }
   },
   {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": {
-      "month": 10,
-      "year": 2016
-    }
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
+    "client_id": 81,
     "has_elec_heating": true,
     "anomaly_date": null
   },
   {
+    "client_id": 82,
     "has_elec_heating": false,
     "anomaly_date": null
   },
   {
-    "has_elec_heating": false,
-    "anomaly_date": {
-      "month": 1,
-      "year": 2018
-    }
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": {
-      "month": 10,
-      "year": 2015
-    }
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": {
-      "month": 9,
-      "year": 2019
-    }
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": {
-      "month": 5,
-      "year": 2016
-    }
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
+    "client_id": 83,
     "has_elec_heating": true,
     "anomaly_date": {
       "month": 1,
@@ -113,359 +454,106 @@
     }
   },
   {
+    "client_id": 84,
     "has_elec_heating": false,
     "anomaly_date": null
   },
   {
-    "has_elec_heating": true,
+    "client_id": 85,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 86,
+    "has_elec_heating": false,
     "anomaly_date": {
-      "month": 11,
+      "month": 7,
       "year": 2016
     }
   },
   {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
+    "client_id": 87,
     "has_elec_heating": false,
     "anomaly_date": null
   },
   {
+    "client_id": 88,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 89,
     "has_elec_heating": true,
     "anomaly_date": null
   },
   {
+    "client_id": 90,
+    "has_elec_heating": true,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 91,
     "has_elec_heating": false,
     "anomaly_date": {
-      "month": 5,
-      "year": 2016
+      "month": 8,
+      "year": 2019
     }
   },
   {
+    "client_id": 92,
     "has_elec_heating": false,
     "anomaly_date": null
   },
   {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
+    "client_id": 93,
     "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
     "anomaly_date": {
-      "month": 4,
-      "year": 2015
+      "month": 9,
+      "year": 2018
     }
   },
   {
+    "client_id": 94,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 95,
+    "has_elec_heating": false,
+    "anomaly_date": null
+  },
+  {
+    "client_id": 96,
     "has_elec_heating": true,
     "anomaly_date": null
   },
   {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": {
-      "month": 3,
-      "year": 2015
-    }
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": {
-      "month": 5,
-      "year": 2016
-    }
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": {
-      "month": 6,
-      "year": 2015
-    }
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
+    "client_id": 97,
     "has_elec_heating": false,
     "anomaly_date": {
       "month": 9,
-      "year": 2015
-    }
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": {
-      "month": 5,
-      "year": 2018
-    }
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": {
-      "month": 11,
-      "year": 2019
-    }
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": {
-      "month": 7,
-      "year": 2019
-    }
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": {
-      "month": 7,
-      "year": 2018
-    }
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": {
-      "month": 12,
-      "year": 2018
-    }
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": {
-      "month": 12,
-      "year": 2018
-    }
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": {
-      "month": 10,
-      "year": 2019
-    }
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": {
-      "month": 8,
       "year": 2016
     }
   },
   {
+    "client_id": 98,
     "has_elec_heating": false,
     "anomaly_date": null
   },
   {
+    "client_id": 99,
     "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": true,
     "anomaly_date": {
-      "month": 8,
-      "year": 2019
+      "month": 5,
+      "year": 2017
     }
   },
   {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
-  },
-  {
-    "has_elec_heating": false,
-    "anomaly_date": null
+    "client_id": 100,
+    "has_elec_heating": true,
+    "anomaly_date": {
+      "month": 10,
+      "year": 2017
+    }
   }
 ]
