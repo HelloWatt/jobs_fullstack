@@ -1,0 +1,37 @@
+.search-client {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.search-client .logo {
+    margin: auto;
+}
+
+.search-input {
+    overflow: hidden;
+    display: flex;
+    margin: 2rem 1rem;
+    background: white;
+    border: solid 1px var(--mediumgray);
+    border-radius: 4px;
+}
+
+.search-input:focus-within {
+    border-color: var(--blue);
+}
+
+.search-input input {
+    flex-grow: 1;
+    background: white;
+}
+
+.search-input input, .search-input a {
+    padding: 0.5rem 1rem;
+}
+
+@media (min-width: 48rem) {
+    .search-input {
+        margin: 3rem 5rem;
+    }
+}
