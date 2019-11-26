@@ -4,11 +4,13 @@
 
 {% block css %}
     {{ block.super }}
+    <link rel="stylesheet" href="{% static "dashboard/css/search-client.css" %}">
     <link rel="stylesheet" href="{% static "dashboard/css/clients-list.css" %}">
 {% endblock %}
 
 {% block body %}
     <main class="clients-list-container">
+        {% include "dashboard/_components/search-client.html" %}
         <section>
             <h1 class="main-title">List of clients</h1>
             <table class="clients-list">
@@ -53,3 +55,7 @@
         </section>
     </main>
 {% endblock body %}
+
+{% block script %}
+    <script src="{% static 'dashboard/js/search-client.js' %}"></script>
+{% endblock %}
