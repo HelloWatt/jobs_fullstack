@@ -21,6 +21,11 @@ svg {
     fill: var(--black);
 }
 
+.main-container {
+    max-width: 80rem;
+    margin: auto;
+}
+
 /* links */
 
 a:hover {

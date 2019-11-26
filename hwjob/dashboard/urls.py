@@ -1,14 +1,14 @@
 from django.urls import path
 
-from dashboard.views import ClientsListView, ConsumptionView
+from dashboard.views import consumption_view, search_client_view
 
 
 app_name = "dashboard"
 urlpatterns = [
-    path("", ClientsListView.as_view(), name="clients_list"),
+    path("", search_client_view, name="search_client"),
     path(
         f"consumption/<int:client_id>",
-        ConsumptionView.as_view(),
+        consumption_view,
         name="consumption_details",
     ),
 ]
