@@ -5,9 +5,8 @@
         searchLink.href = "/consumption/" + searchInput.value;
     });
 
-    console.error("Someone reported several bug about the search", {
-        "a11y": "doesn't submit when enter is press",
+    console.error("Some users reported bugs about the search", {
+        "a11y": "doesn't submit when enter is pressed",
         "notuserfriendly": "there is no autocomplete & cannot search by name",
-        "errors": "submitting an invalid id goes to a 404 page"
     })
 })();
