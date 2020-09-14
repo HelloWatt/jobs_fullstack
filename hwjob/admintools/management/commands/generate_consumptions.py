@@ -1,3 +1,5 @@
+import random
+
 from django.core import serializers
 from django.core.management.base import BaseCommand
 import json
@@ -37,6 +39,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         consumptions, cients, metadatas = generate_consumptions(options["nb_clients"])
+        random.shuffle(consumptions)
         self.show_stats(metadatas)
         conso_fixtures = serializers.serialize("json", consumptions, indent=2)
         with open(options["consofixturepath"], "w") as f:
