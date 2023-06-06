@@ -1,4 +1,5 @@
-from django.test import TestCase, Client as DjClient
+from django.test import Client as DjClient
+from django.test import TestCase
 from django.urls import reverse
 
 from dashboard.models import Client
