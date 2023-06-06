@@ -1,10 +1,11 @@
+import json
 import random
 
 from django.core import serializers
 from django.core.management.base import BaseCommand
-import json
 
 from admintools.generators.generate_consumptions import generate_consumptions
+from dashboard.models import Client, Consumption
 
 
 class Command(BaseCommand):
@@ -15,7 +16,7 @@ class Command(BaseCommand):
             "nb_clients",
             help="The number of clients to generate",
             nargs="?",
-            default=100,
+            default=5000,
             type=int,
         )
         parser.add_argument(
@@ -38,10 +39,13 @@ class Command(BaseCommand):
         )
 
     def handle(self, *args, **options):
-        consumptions, cients, metadatas = generate_consumptions(options["nb_clients"])
-        random.shuffle(consumptions)
+        Client.objects.all().delete()
+        Consumption.objects.all().delete()
+        metadatas = generate_consumptions(options["nb_clients"])
         self.show_stats(metadatas)
-        conso_fixtures = serializers.serialize("json", consumptions, indent=2)
+        conso_fixtures = serializers.serialize(
+            "json", Consumption.objects.all(), indent=2
+        )
         with open(options["consofixturepath"], "w") as f:
             f.write(conso_fixtures)
             self.stdout.write(
@@ -49,7 +53,7 @@ class Command(BaseCommand):
                     f"Successfully saved fixture to {options['consofixturepath']}"
                 )
             )
-        client_fixtures = serializers.serialize("json", cients, indent=2)
+        client_fixtures = serializers.serialize("json", Client.objects.all(), indent=2)
         with open(options["clientfixturepath"], "w") as f:
             f.write(client_fixtures)
             self.stdout.write(
@@ -74,10 +78,10 @@ class Command(BaseCommand):
         self.stdout.write(
             self.style.SUCCESS(
                 f"""
-        Number of clients: {len(metadatas)}
-        Electricity heating count: {elec_heating_count}
-        Anomalies count: {anomalies_count}
-        Electricity heating and anomalies count: {both_count}
-        """
+                    Number of clients: {len(metadatas)}
+                    Electricity heating count: {elec_heating_count}
+                    Anomalies count: {anomalies_count}
+                    Both heating and anomalies count: {both_count}
+                    """
             )
         )

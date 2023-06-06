@@ -1,5 +1,4 @@
-from datetime import date
+from datetime import datetime
 
-start_year = 2015
-years = range(start_year, date.today().year + 1)
-months = range(1, 13)
+start_date = datetime(2015, 3, 1)
+end_date = datetime.now()

@@ -2,6 +2,7 @@ from django.core import serializers
 from django.core.management.base import BaseCommand
 
 from admintools.generators.generate_prices import generate_prices
+from dashboard.models import ElectricityPrice
 
 
 class Command(BaseCommand):
@@ -16,8 +17,11 @@ class Command(BaseCommand):
         )
 
     def handle(self, *args, **options):
-        prices = generate_prices()
-        fixtures = serializers.serialize("json", prices, indent=2)
+        ElectricityPrice.objects.all().delete()
+        generate_prices()
+        fixtures = serializers.serialize(
+            "json", ElectricityPrice.objects.all(), indent=2
+        )
         with open(options["fixturepath"], "w") as f:
             f.write(fixtures)
             self.stdout.write(
