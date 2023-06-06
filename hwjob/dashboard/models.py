@@ -1,4 +1,4 @@
-from django.core.validators import MinValueValidator, MaxValueValidator
+from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
 from django.urls import reverse
 
@@ -22,7 +22,7 @@ class Client(models.Model):
 
 class Consumption(MonthMixin):
     """
-        Store the electricity consumption of a client over a month
+    Store the electricity consumption of a client over a month
     """
 
     client = models.ForeignKey(
@@ -36,9 +36,7 @@ class Consumption(MonthMixin):
         unique_together = ("client", "month", "year")
 
     def __str__(self):
-        return (
-            f"Conso of {self.client} ({self.month}/{self.year}): {self.kwh_consumed}"
-        )
+        return f"Conso of {self.client} ({self.month}/{self.year}): {self.kwh_consumed}"
 
     def get_absolute_url(self):
         return reverse("dashboard:consumption_details", kwargs={"client_id": self.pk})
@@ -46,7 +44,7 @@ class Consumption(MonthMixin):
 
 class ElectricityPrice(MonthMixin):
     """
-        Store the electricity price during a month
+    Store the electricity price during a month
     """
 
     cteuro_per_kwh = models.FloatField("price ct€/kwh")
