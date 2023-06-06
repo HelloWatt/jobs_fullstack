@@ -2,19 +2,25 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    min-height: 100vh;
 }
 
-.search-client .logo {
-    margin: auto;
+.search-input-container {
+    max-width: 40rem;
+    width: 100%;
+    margin: 2rem 1rem;
 }
 
 .search-input {
+    margin-top: 0.5rem;
     overflow: hidden;
     display: flex;
-    margin: 2rem 1rem;
     background: white;
     border: solid 1px var(--mediumgray);
     border-radius: 4px;
+    width: 100%;
 }
 
 .search-input:focus-within {
@@ -31,7 +37,7 @@
 }
 
 @media (min-width: 48rem) {
-    .search-input {
-        margin: 3rem 5rem;
+    .search-input-container {
+        margin: 3rem 0;
     }
 }
