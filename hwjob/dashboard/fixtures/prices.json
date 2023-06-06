@@ -1,322 +1,286 @@
 [
 {
   "model": "dashboard.electricityprice",
-  "pk": 669,
+  "pk": 1,
+  "fields": {
+    "month": 10,
+    "year": 2018,
+    "cteuro_per_kwh": 18.33
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 2,
+  "fields": {
+    "month": 11,
+    "year": 2017,
+    "cteuro_per_kwh": 17.83
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 3,
+  "fields": {
+    "month": 11,
+    "year": 2019,
+    "cteuro_per_kwh": 19.34
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 4,
+  "fields": {
+    "month": 11,
+    "year": 2022,
+    "cteuro_per_kwh": 21.61
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 5,
   "fields": {
     "month": 11,
     "year": 2016,
-    "cteuro_per_kwh": 17.17
+    "cteuro_per_kwh": 17.32
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 670,
+  "pk": 6,
   "fields": {
-    "month": 1,
-    "year": 2020,
-    "cteuro_per_kwh": 19.24
+    "month": 7,
+    "year": 2015,
+    "cteuro_per_kwh": 16.14
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 671,
+  "pk": 7,
   "fields": {
-    "month": 4,
-    "year": 2019,
-    "cteuro_per_kwh": 19.01
+    "month": 8,
+    "year": 2022,
+    "cteuro_per_kwh": 21.76
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 672,
+  "pk": 8,
   "fields": {
-    "month": 2,
-    "year": 2016,
-    "cteuro_per_kwh": 16.71
+    "month": 3,
+    "year": 2017,
+    "cteuro_per_kwh": 17.38
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 673,
-  "fields": {
-    "month": 6,
-    "year": 2020,
-    "cteuro_per_kwh": 19.97
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 674,
-  "fields": {
-    "month": 1,
-    "year": 2023,
-    "cteuro_per_kwh": 21.72
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 675,
+  "pk": 9,
   "fields": {
     "month": 11,
     "year": 2015,
-    "cteuro_per_kwh": 16.25
+    "cteuro_per_kwh": 16.26
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 676,
+  "pk": 10,
+  "fields": {
+    "month": 4,
+    "year": 2021,
+    "cteuro_per_kwh": 20.59
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 11,
+  "fields": {
+    "month": 7,
+    "year": 2021,
+    "cteuro_per_kwh": 20.77
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 12,
+  "fields": {
+    "month": 12,
+    "year": 2019,
+    "cteuro_per_kwh": 19.19
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 13,
+  "fields": {
+    "month": 2,
+    "year": 2016,
+    "cteuro_per_kwh": 16.67
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 14,
+  "fields": {
+    "month": 5,
+    "year": 2015,
+    "cteuro_per_kwh": 16.4
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 15,
+  "fields": {
+    "month": 1,
+    "year": 2017,
+    "cteuro_per_kwh": 17.16
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 16,
+  "fields": {
+    "month": 8,
+    "year": 2020,
+    "cteuro_per_kwh": 19.87
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 17,
+  "fields": {
+    "month": 7,
+    "year": 2018,
+    "cteuro_per_kwh": 18.08
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 18,
+  "fields": {
+    "month": 6,
+    "year": 2022,
+    "cteuro_per_kwh": 21.54
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 19,
+  "fields": {
+    "month": 6,
+    "year": 2021,
+    "cteuro_per_kwh": 20.29
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 20,
+  "fields": {
+    "month": 3,
+    "year": 2015,
+    "cteuro_per_kwh": 16.04
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 21,
   "fields": {
     "month": 10,
     "year": 2020,
-    "cteuro_per_kwh": 20.17
+    "cteuro_per_kwh": 20.3
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 677,
+  "pk": 22,
   "fields": {
-    "month": 12,
-    "year": 2017,
-    "cteuro_per_kwh": 17.74
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 678,
-  "fields": {
-    "month": 12,
+    "month": 1,
     "year": 2020,
-    "cteuro_per_kwh": 20.07
+    "cteuro_per_kwh": 19.38
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 679,
-  "fields": {
-    "month": 7,
-    "year": 2022,
-    "cteuro_per_kwh": 21.62
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 680,
-  "fields": {
-    "month": 2,
-    "year": 2018,
-    "cteuro_per_kwh": 17.86
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 681,
+  "pk": 23,
   "fields": {
     "month": 1,
     "year": 2019,
-    "cteuro_per_kwh": 18.68
+    "cteuro_per_kwh": 18.48
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 682,
-  "fields": {
-    "month": 5,
-    "year": 2017,
-    "cteuro_per_kwh": 17.51
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 683,
-  "fields": {
-    "month": 3,
-    "year": 2020,
-    "cteuro_per_kwh": 19.88
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 684,
-  "fields": {
-    "month": 5,
-    "year": 2022,
-    "cteuro_per_kwh": 21.62
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 685,
-  "fields": {
-    "month": 12,
-    "year": 2022,
-    "cteuro_per_kwh": 21.93
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 686,
-  "fields": {
-    "month": 10,
-    "year": 2016,
-    "cteuro_per_kwh": 17.05
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 687,
-  "fields": {
-    "month": 10,
-    "year": 2018,
-    "cteuro_per_kwh": 18.78
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 688,
-  "fields": {
-    "month": 9,
-    "year": 2021,
-    "cteuro_per_kwh": 20.74
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 689,
-  "fields": {
-    "month": 9,
-    "year": 2019,
-    "cteuro_per_kwh": 19.51
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 690,
-  "fields": {
-    "month": 11,
-    "year": 2020,
-    "cteuro_per_kwh": 20.26
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 691,
-  "fields": {
-    "month": 5,
-    "year": 2016,
-    "cteuro_per_kwh": 16.98
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 692,
-  "fields": {
-    "month": 11,
-    "year": 2022,
-    "cteuro_per_kwh": 21.78
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 693,
+  "pk": 24,
   "fields": {
     "month": 8,
     "year": 2015,
-    "cteuro_per_kwh": 16.1
+    "cteuro_per_kwh": 16.59
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 694,
+  "pk": 25,
   "fields": {
-    "month": 10,
+    "month": 12,
     "year": 2022,
-    "cteuro_per_kwh": 21.65
+    "cteuro_per_kwh": 21.63
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 695,
-  "fields": {
-    "month": 10,
-    "year": 2017,
-    "cteuro_per_kwh": 17.93
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 696,
-  "fields": {
-    "month": 2,
-    "year": 2023,
-    "cteuro_per_kwh": 22.0
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 697,
-  "fields": {
-    "month": 5,
-    "year": 2018,
-    "cteuro_per_kwh": 18.24
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 698,
-  "fields": {
-    "month": 4,
-    "year": 2021,
-    "cteuro_per_kwh": 20.62
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 699,
-  "fields": {
-    "month": 1,
-    "year": 2021,
-    "cteuro_per_kwh": 20.18
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 700,
-  "fields": {
-    "month": 11,
-    "year": 2019,
-    "cteuro_per_kwh": 19.52
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 701,
-  "fields": {
-    "month": 12,
-    "year": 2016,
-    "cteuro_per_kwh": 16.98
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 702,
-  "fields": {
-    "month": 12,
-    "year": 2019,
-    "cteuro_per_kwh": 19.45
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 703,
+  "pk": 26,
   "fields": {
     "month": 3,
-    "year": 2021,
-    "cteuro_per_kwh": 20.25
+    "year": 2023,
+    "cteuro_per_kwh": 22.04
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 704,
+  "pk": 27,
+  "fields": {
+    "month": 7,
+    "year": 2017,
+    "cteuro_per_kwh": 17.55
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 28,
+  "fields": {
+    "month": 2,
+    "year": 2020,
+    "cteuro_per_kwh": 19.33
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 29,
+  "fields": {
+    "month": 8,
+    "year": 2018,
+    "cteuro_per_kwh": 18.41
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 30,
+  "fields": {
+    "month": 7,
+    "year": 2016,
+    "cteuro_per_kwh": 16.94
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 31,
+  "fields": {
+    "month": 9,
+    "year": 2022,
+    "cteuro_per_kwh": 21.77
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 32,
   "fields": {
     "month": 7,
     "year": 2020,
@@ -325,439 +289,61 @@
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 705,
-  "fields": {
-    "month": 9,
-    "year": 2020,
-    "cteuro_per_kwh": 20.27
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 706,
-  "fields": {
-    "month": 12,
-    "year": 2018,
-    "cteuro_per_kwh": 18.82
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 707,
-  "fields": {
-    "month": 5,
-    "year": 2020,
-    "cteuro_per_kwh": 19.52
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 708,
-  "fields": {
-    "month": 5,
-    "year": 2015,
-    "cteuro_per_kwh": 16.08
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 709,
-  "fields": {
-    "month": 11,
-    "year": 2017,
-    "cteuro_per_kwh": 18.11
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 710,
-  "fields": {
-    "month": 9,
-    "year": 2016,
-    "cteuro_per_kwh": 16.8
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 711,
-  "fields": {
-    "month": 8,
-    "year": 2022,
-    "cteuro_per_kwh": 21.52
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 712,
-  "fields": {
-    "month": 4,
-    "year": 2020,
-    "cteuro_per_kwh": 19.68
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 713,
-  "fields": {
-    "month": 7,
-    "year": 2017,
-    "cteuro_per_kwh": 17.79
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 714,
-  "fields": {
-    "month": 7,
-    "year": 2021,
-    "cteuro_per_kwh": 20.95
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 715,
-  "fields": {
-    "month": 6,
-    "year": 2022,
-    "cteuro_per_kwh": 21.45
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 716,
-  "fields": {
-    "month": 1,
-    "year": 2017,
-    "cteuro_per_kwh": 17.54
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 717,
-  "fields": {
-    "month": 7,
-    "year": 2015,
-    "cteuro_per_kwh": 16.49
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 718,
-  "fields": {
-    "month": 12,
-    "year": 2021,
-    "cteuro_per_kwh": 21.25
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 719,
-  "fields": {
-    "month": 11,
-    "year": 2018,
-    "cteuro_per_kwh": 18.83
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 720,
-  "fields": {
-    "month": 9,
-    "year": 2017,
-    "cteuro_per_kwh": 17.8
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 721,
-  "fields": {
-    "month": 8,
-    "year": 2016,
-    "cteuro_per_kwh": 16.78
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 722,
-  "fields": {
-    "month": 3,
-    "year": 2023,
-    "cteuro_per_kwh": 21.91
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 723,
-  "fields": {
-    "month": 8,
-    "year": 2017,
-    "cteuro_per_kwh": 17.96
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 724,
+  "pk": 33,
   "fields": {
     "month": 6,
     "year": 2023,
-    "cteuro_per_kwh": 22.22
+    "cteuro_per_kwh": 22.36
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 725,
-  "fields": {
-    "month": 7,
-    "year": 2018,
-    "cteuro_per_kwh": 18.42
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 726,
-  "fields": {
-    "month": 6,
-    "year": 2018,
-    "cteuro_per_kwh": 18.09
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 727,
-  "fields": {
-    "month": 4,
-    "year": 2023,
-    "cteuro_per_kwh": 22.07
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 728,
-  "fields": {
-    "month": 6,
-    "year": 2021,
-    "cteuro_per_kwh": 20.28
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 729,
-  "fields": {
-    "month": 3,
-    "year": 2019,
-    "cteuro_per_kwh": 18.55
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 730,
-  "fields": {
-    "month": 4,
-    "year": 2015,
-    "cteuro_per_kwh": 16.19
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 731,
+  "pk": 34,
   "fields": {
     "month": 2,
-    "year": 2022,
-    "cteuro_per_kwh": 21.14
+    "year": 2023,
+    "cteuro_per_kwh": 22.16
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 732,
-  "fields": {
-    "month": 3,
-    "year": 2017,
-    "cteuro_per_kwh": 17.67
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 733,
-  "fields": {
-    "month": 12,
-    "year": 2015,
-    "cteuro_per_kwh": 16.82
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 734,
-  "fields": {
-    "month": 3,
-    "year": 2022,
-    "cteuro_per_kwh": 21.0
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 735,
-  "fields": {
-    "month": 3,
-    "year": 2018,
-    "cteuro_per_kwh": 18.34
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 736,
-  "fields": {
-    "month": 6,
-    "year": 2017,
-    "cteuro_per_kwh": 17.88
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 737,
-  "fields": {
-    "month": 6,
-    "year": 2016,
-    "cteuro_per_kwh": 16.79
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 738,
-  "fields": {
-    "month": 3,
-    "year": 2015,
-    "cteuro_per_kwh": 16.16
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 739,
+  "pk": 35,
   "fields": {
     "month": 4,
-    "year": 2016,
-    "cteuro_per_kwh": 16.97
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 740,
-  "fields": {
-    "month": 1,
-    "year": 2022,
-    "cteuro_per_kwh": 21.23
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 741,
-  "fields": {
-    "month": 10,
-    "year": 2021,
-    "cteuro_per_kwh": 20.8
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 742,
-  "fields": {
-    "month": 5,
-    "year": 2019,
-    "cteuro_per_kwh": 18.92
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 743,
-  "fields": {
-    "month": 6,
     "year": 2015,
-    "cteuro_per_kwh": 16.24
+    "cteuro_per_kwh": 16.18
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 744,
-  "fields": {
-    "month": 5,
-    "year": 2023,
-    "cteuro_per_kwh": 22.42
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 745,
-  "fields": {
-    "month": 10,
-    "year": 2019,
-    "cteuro_per_kwh": 19.53
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 746,
-  "fields": {
-    "month": 9,
-    "year": 2015,
-    "cteuro_per_kwh": 16.37
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 747,
-  "fields": {
-    "month": 1,
-    "year": 2016,
-    "cteuro_per_kwh": 16.61
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 748,
-  "fields": {
-    "month": 11,
-    "year": 2021,
-    "cteuro_per_kwh": 20.63
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 749,
+  "pk": 36,
   "fields": {
     "month": 8,
-    "year": 2018,
-    "cteuro_per_kwh": 18.3
+    "year": 2017,
+    "cteuro_per_kwh": 17.52
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 750,
+  "pk": 37,
   "fields": {
-    "month": 7,
-    "year": 2019,
-    "cteuro_per_kwh": 19.06
+    "month": 4,
+    "year": 2023,
+    "cteuro_per_kwh": 22.19
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 751,
+  "pk": 38,
   "fields": {
     "month": 2,
-    "year": 2021,
-    "cteuro_per_kwh": 20.1
+    "year": 2019,
+    "cteuro_per_kwh": 18.81
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 752,
-  "fields": {
-    "month": 8,
-    "year": 2020,
-    "cteuro_per_kwh": 19.84
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 753,
+  "pk": 39,
   "fields": {
     "month": 9,
     "year": 2018,
@@ -766,137 +352,551 @@
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 754,
+  "pk": 40,
   "fields": {
-    "month": 2,
-    "year": 2019,
-    "cteuro_per_kwh": 18.58
+    "month": 5,
+    "year": 2017,
+    "cteuro_per_kwh": 17.26
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 755,
+  "pk": 41,
+  "fields": {
+    "month": 12,
+    "year": 2020,
+    "cteuro_per_kwh": 20.34
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 42,
   "fields": {
     "month": 1,
     "year": 2018,
-    "cteuro_per_kwh": 17.89
+    "cteuro_per_kwh": 17.7
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 756,
+  "pk": 43,
+  "fields": {
+    "month": 2,
+    "year": 2022,
+    "cteuro_per_kwh": 21.37
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 44,
+  "fields": {
+    "month": 6,
+    "year": 2017,
+    "cteuro_per_kwh": 17.69
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 45,
+  "fields": {
+    "month": 9,
+    "year": 2016,
+    "cteuro_per_kwh": 17.25
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 46,
+  "fields": {
+    "month": 1,
+    "year": 2022,
+    "cteuro_per_kwh": 20.86
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 47,
+  "fields": {
+    "month": 7,
+    "year": 2019,
+    "cteuro_per_kwh": 18.83
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 48,
   "fields": {
     "month": 8,
-    "year": 2019,
-    "cteuro_per_kwh": 18.97
+    "year": 2016,
+    "cteuro_per_kwh": 16.83
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 757,
+  "pk": 49,
   "fields": {
-    "month": 4,
+    "month": 12,
     "year": 2017,
-    "cteuro_per_kwh": 17.4
+    "cteuro_per_kwh": 17.86
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 758,
+  "pk": 50,
+  "fields": {
+    "month": 5,
+    "year": 2023,
+    "cteuro_per_kwh": 22.12
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 51,
+  "fields": {
+    "month": 9,
+    "year": 2017,
+    "cteuro_per_kwh": 17.83
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 52,
   "fields": {
     "month": 10,
-    "year": 2015,
-    "cteuro_per_kwh": 16.61
+    "year": 2017,
+    "cteuro_per_kwh": 17.73
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 759,
+  "pk": 53,
+  "fields": {
+    "month": 3,
+    "year": 2019,
+    "cteuro_per_kwh": 19.12
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 54,
+  "fields": {
+    "month": 10,
+    "year": 2022,
+    "cteuro_per_kwh": 21.66
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 55,
+  "fields": {
+    "month": 9,
+    "year": 2021,
+    "cteuro_per_kwh": 20.9
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 56,
+  "fields": {
+    "month": 4,
+    "year": 2018,
+    "cteuro_per_kwh": 18.16
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 57,
+  "fields": {
+    "month": 5,
+    "year": 2016,
+    "cteuro_per_kwh": 16.67
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 58,
+  "fields": {
+    "month": 11,
+    "year": 2021,
+    "cteuro_per_kwh": 20.86
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 59,
+  "fields": {
+    "month": 1,
+    "year": 2021,
+    "cteuro_per_kwh": 19.99
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 60,
+  "fields": {
+    "month": 6,
+    "year": 2020,
+    "cteuro_per_kwh": 19.97
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 61,
+  "fields": {
+    "month": 9,
+    "year": 2020,
+    "cteuro_per_kwh": 19.81
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 62,
+  "fields": {
+    "month": 9,
+    "year": 2015,
+    "cteuro_per_kwh": 16.45
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 63,
+  "fields": {
+    "month": 7,
+    "year": 2022,
+    "cteuro_per_kwh": 21.62
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 64,
+  "fields": {
+    "month": 1,
+    "year": 2016,
+    "cteuro_per_kwh": 16.86
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 65,
+  "fields": {
+    "month": 12,
+    "year": 2015,
+    "cteuro_per_kwh": 16.43
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 66,
+  "fields": {
+    "month": 10,
+    "year": 2019,
+    "cteuro_per_kwh": 19.2
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 67,
   "fields": {
     "month": 5,
     "year": 2021,
-    "cteuro_per_kwh": 20.69
+    "cteuro_per_kwh": 20.7
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 760,
+  "pk": 68,
   "fields": {
-    "month": 2,
-    "year": 2020,
-    "cteuro_per_kwh": 19.66
+    "month": 4,
+    "year": 2019,
+    "cteuro_per_kwh": 19.17
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 761,
+  "pk": 69,
+  "fields": {
+    "month": 6,
+    "year": 2015,
+    "cteuro_per_kwh": 16.17
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 70,
   "fields": {
     "month": 2,
     "year": 2017,
-    "cteuro_per_kwh": 17.12
+    "cteuro_per_kwh": 17.18
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 762,
+  "pk": 71,
+  "fields": {
+    "month": 12,
+    "year": 2021,
+    "cteuro_per_kwh": 20.9
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 72,
+  "fields": {
+    "month": 10,
+    "year": 2015,
+    "cteuro_per_kwh": 16.27
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 73,
+  "fields": {
+    "month": 2,
+    "year": 2021,
+    "cteuro_per_kwh": 20.46
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 74,
+  "fields": {
+    "month": 11,
+    "year": 2020,
+    "cteuro_per_kwh": 20.29
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 75,
+  "fields": {
+    "month": 3,
+    "year": 2016,
+    "cteuro_per_kwh": 16.57
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 76,
+  "fields": {
+    "month": 5,
+    "year": 2020,
+    "cteuro_per_kwh": 19.82
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 77,
+  "fields": {
+    "month": 6,
+    "year": 2018,
+    "cteuro_per_kwh": 18.52
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 78,
+  "fields": {
+    "month": 12,
+    "year": 2018,
+    "cteuro_per_kwh": 18.39
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 79,
+  "fields": {
+    "month": 4,
+    "year": 2017,
+    "cteuro_per_kwh": 17.65
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 80,
+  "fields": {
+    "month": 5,
+    "year": 2022,
+    "cteuro_per_kwh": 21.62
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 81,
   "fields": {
     "month": 6,
     "year": 2019,
-    "cteuro_per_kwh": 19.07
+    "cteuro_per_kwh": 18.77
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 763,
+  "pk": 82,
+  "fields": {
+    "month": 11,
+    "year": 2018,
+    "cteuro_per_kwh": 18.74
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 83,
   "fields": {
     "month": 4,
+    "year": 2022,
+    "cteuro_per_kwh": 21.1
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 84,
+  "fields": {
+    "month": 3,
+    "year": 2022,
+    "cteuro_per_kwh": 20.98
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 85,
+  "fields": {
+    "month": 1,
+    "year": 2023,
+    "cteuro_per_kwh": 22.13
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 86,
+  "fields": {
+    "month": 5,
+    "year": 2019,
+    "cteuro_per_kwh": 19.02
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 87,
+  "fields": {
+    "month": 4,
+    "year": 2020,
+    "cteuro_per_kwh": 19.53
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 88,
+  "fields": {
+    "month": 2,
+    "year": 2018,
+    "cteuro_per_kwh": 17.95
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 89,
+  "fields": {
+    "month": 5,
+    "year": 2018,
+    "cteuro_per_kwh": 18.43
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 90,
+  "fields": {
+    "month": 4,
+    "year": 2016,
+    "cteuro_per_kwh": 16.66
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 91,
+  "fields": {
+    "month": 8,
+    "year": 2021,
+    "cteuro_per_kwh": 20.62
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 92,
+  "fields": {
+    "month": 9,
+    "year": 2019,
+    "cteuro_per_kwh": 19.24
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 93,
+  "fields": {
+    "month": 10,
+    "year": 2016,
+    "cteuro_per_kwh": 16.89
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 94,
+  "fields": {
+    "month": 3,
+    "year": 2021,
+    "cteuro_per_kwh": 20.51
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 95,
+  "fields": {
+    "month": 12,
+    "year": 2016,
+    "cteuro_per_kwh": 17.2
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 96,
+  "fields": {
+    "month": 6,
+    "year": 2016,
+    "cteuro_per_kwh": 16.85
+  }
+},
+{
+  "model": "dashboard.electricityprice",
+  "pk": 97,
+  "fields": {
+    "month": 3,
     "year": 2018,
     "cteuro_per_kwh": 18.18
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 764,
+  "pk": 98,
   "fields": {
-    "month": 9,
-    "year": 2022,
-    "cteuro_per_kwh": 21.9
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 765,
-  "fields": {
-    "month": 8,
+    "month": 10,
     "year": 2021,
-    "cteuro_per_kwh": 20.8
+    "cteuro_per_kwh": 20.86
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 766,
-  "fields": {
-    "month": 4,
-    "year": 2022,
-    "cteuro_per_kwh": 21.01
-  }
-},
-{
-  "model": "dashboard.electricityprice",
-  "pk": 767,
+  "pk": 99,
   "fields": {
     "month": 3,
-    "year": 2016,
-    "cteuro_per_kwh": 16.46
+    "year": 2020,
+    "cteuro_per_kwh": 19.85
   }
 },
 {
   "model": "dashboard.electricityprice",
-  "pk": 768,
+  "pk": 100,
   "fields": {
-    "month": 7,
-    "year": 2016,
-    "cteuro_per_kwh": 17.22
+    "month": 8,
+    "year": 2019,
+    "cteuro_per_kwh": 18.97
   }
 }
 ]
