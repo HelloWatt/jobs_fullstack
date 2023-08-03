@@ -1,6 +1,6 @@
 from django.urls import path
 
-from dashboard.views import consumption_view, search_client_view
+from dashboard.views import consumption_view, search_client_view, search_by_name
 
 app_name = "dashboard"
 urlpatterns = [
@@ -10,4 +10,5 @@ urlpatterns = [
         consumption_view,
         name="consumption_details",
     ),
+    path("api/search-clients", search_by_name, name="search_by_name"),
 ]
