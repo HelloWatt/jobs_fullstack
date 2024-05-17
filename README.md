@@ -38,10 +38,6 @@ Vous êtes libre de changer complètement l'application. Amusez-vous !
 - Installer les dépendances se trouvant dans requirements.txt
 - Démarrer le serveur: `$ python manage.py runserver`
 
-Vous trouverez dans l'app dashboard un dossier fixtures et metadata.
-Les fixtures sont déjà [chargées](https://docs.djangoproject.com/en/3.1/howto/initial-data/) en base de données, vous n'aurez donc probablement pas besoin d'y toucher.
-Le dossier `metadata` contient des informations additionnelles sur les clients, il est là uniquement pour que vous puissiez tester vos résultats avec la "réalité".
-
 ## Librairies à votre disposition
 
 Seul [Django](https://www.djangoproject.com/) et [black](https://github.com/psf/black) sont listés en dépendances Python.
